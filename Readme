@@ -1,1 +1,12 @@
+This web scraper can be used to collect all mission descriptions from the Dofus almanax website.
 
+Edit the code to select your language, change "es" to your language, for example "en" or "fr":
+  String web = "https://www.krosmoz.com/es/almanax/";
+
+Then create a txt file and put it on a certain location, for example:
+  String path = "c:\\almanax.txt";
+ 
+You can also change the game, edit the code to "dofus" or "wakfu" or "dofustouch" or "all":
+  String game = "?game=dofus";
+  
+Run the code and enjoy.
